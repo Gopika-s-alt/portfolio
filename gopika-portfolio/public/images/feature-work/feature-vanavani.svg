@@ -1,0 +1,37 @@
+<svg width="490" height="300" viewBox="0 0 490 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12261E"/>
+      <stop offset="100%" stop-color="#1C212B"/>
+    </linearGradient>
+  </defs>
+  <rect width="490" height="300" fill="url(#vgBg)"/>
+  <!-- hills -->
+  <path d="M0 220 Q 120 150 245 210 T 490 200 V300 H0 Z" fill="#2E5E45"/>
+  <path d="M0 250 Q 150 200 300 245 T 490 235 V300 H0 Z" fill="#22432F"/>
+  <!-- trees -->
+  <g fill="#3ACB6E">
+    <polygon points="90,150 105,190 75,190"/>
+    <polygon points="90,135 108,175 72,175"/>
+    <rect x="87" y="188" width="6" height="14" fill="#6B4A2A"/>
+  </g>
+  <g fill="#2FAE5D">
+    <polygon points="380,140 398,185 362,185"/>
+    <polygon points="380,122 402,168 358,168"/>
+    <rect x="377" y="183" width="6" height="16" fill="#6B4A2A"/>
+  </g>
+  <g fill="#3ACB6E">
+    <polygon points="250,120 270,168 230,168"/>
+    <polygon points="250,100 274,150 226,150"/>
+    <rect x="247" y="166" width="6" height="18" fill="#6B4A2A"/>
+  </g>
+  <!-- sensor node -->
+  <circle cx="150" cy="90" r="10" fill="#F3CA4D"/>
+  <path d="M150 90 m-20,0 a20,20 0 0 1 40,0" fill="none" stroke="#F3CA4D" stroke-width="2" opacity="0.6"/>
+  <path d="M150 90 m-30,0 a30,30 0 0 1 60,0" fill="none" stroke="#F3CA4D" stroke-width="2" opacity="0.3"/>
+  <line x1="150" y1="100" x2="150" y2="130" stroke="#F3CA4D" stroke-width="3"/>
+  <!-- data pulse -->
+  <circle cx="150" cy="90" r="4" fill="#FFFFFF"/>
+  <path d="M170 70 l16 -16" stroke="#9282F8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="190" cy="50" r="8" fill="#9282F8"/>
+</svg>

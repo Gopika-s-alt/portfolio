@@ -1,0 +1,36 @@
+<svg width="490" height="300" viewBox="0 0 490 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C212B"/>
+      <stop offset="100%" stop-color="#3A3F4B"/>
+    </linearGradient>
+  </defs>
+  <rect width="490" height="300" fill="url(#rgBg)"/>
+  <!-- rails -->
+  <line x1="0" y1="200" x2="490" y2="200" stroke="#F3CA4D" stroke-width="4"/>
+  <line x1="0" y1="230" x2="490" y2="230" stroke="#F3CA4D" stroke-width="4"/>
+  <g stroke="#677084" stroke-width="6">
+    <line x1="30" y1="195" x2="30" y2="235"/>
+    <line x1="90" y1="195" x2="90" y2="235"/>
+    <line x1="150" y1="195" x2="150" y2="235"/>
+    <line x1="210" y1="195" x2="210" y2="235"/>
+    <line x1="270" y1="195" x2="270" y2="235"/>
+    <line x1="330" y1="195" x2="330" y2="235"/>
+    <line x1="390" y1="195" x2="390" y2="235"/>
+    <line x1="450" y1="195" x2="450" y2="235"/>
+  </g>
+  <!-- sensor tower -->
+  <rect x="330" y="90" width="10" height="100" fill="#9282F8"/>
+  <circle cx="335" cy="80" r="14" fill="#9282F8"/>
+  <path d="M335 80 m-24,0 a24,24 0 0 1 48,0" fill="none" stroke="#9282F8" stroke-width="2" opacity="0.6"/>
+  <path d="M335 80 m-34,0 a34,34 0 0 1 68,0" fill="none" stroke="#9282F8" stroke-width="2" opacity="0.3"/>
+  <!-- alert waves toward track -->
+  <circle cx="335" cy="80" r="4" fill="#F3CA4D"/>
+  <!-- dashboard card -->
+  <rect x="40" y="45" width="150" height="90" rx="10" fill="#FFFFFF" opacity="0.06"/>
+  <rect x="52" y="58" width="60" height="8" rx="4" fill="#F3CA4D"/>
+  <rect x="52" y="74" width="126" height="6" rx="3" fill="#677084"/>
+  <rect x="52" y="88" width="90" height="6" rx="3" fill="#677084"/>
+  <rect x="52" y="102" width="110" height="6" rx="3" fill="#677084"/>
+  <circle cx="163" cy="66" r="6" fill="#3ACB6E"/>
+</svg>

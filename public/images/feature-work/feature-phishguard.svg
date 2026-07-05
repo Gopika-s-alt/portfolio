@@ -1,0 +1,23 @@
+<svg width="490" height="300" viewBox="0 0 490 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A2140"/>
+      <stop offset="100%" stop-color="#1C212B"/>
+    </linearGradient>
+  </defs>
+  <rect width="490" height="300" fill="url(#pgBg)"/>
+  <!-- browser window -->
+  <rect x="60" y="55" width="370" height="190" rx="12" fill="#FFFFFF" opacity="0.06"/>
+  <rect x="60" y="55" width="370" height="28" rx="12" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="78" cy="69" r="5" fill="#F76C6C"/>
+  <circle cx="94" cy="69" r="5" fill="#F3CA4D"/>
+  <circle cx="110" cy="69" r="5" fill="#3ACB6E"/>
+  <rect x="140" y="63" width="220" height="12" rx="6" fill="#0F1116"/>
+  <rect x="146" y="66" width="140" height="6" rx="3" fill="#677084"/>
+  <!-- shield -->
+  <path d="M245 105 l45 16 v42 c0 33 -20 55 -45 65 c-25 -10 -45 -32 -45 -65 v-42 z" fill="#9282F8"/>
+  <path d="M225 150 l14 14 28 -30" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- warning tag -->
+  <rect x="330" y="180" width="80" height="30" rx="8" fill="#F3CA4D"/>
+  <text x="370" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1C212B">FLAGGED</text>
+</svg>
